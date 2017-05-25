@@ -3,6 +3,17 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ /*food image*/
+ .food-img{
+ width:250px;
+ height:250px;
+ border-radius:125px;
+ -moz-border-radius : 125px;
+ -webkit-border-radius : 125px;
+ -ms-border-radius :125px;
+ -khtml-border-radius : 125px;
+ -o-border-radius :125px;
+ }
 body {
 	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden
