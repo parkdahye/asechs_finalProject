@@ -157,7 +157,73 @@
                </div>
             </div>
          </div>
-      </div>
+         <div class="col-lg-4 col-sm-6 portfolio-item">
+            <!--  <div class="row">
+                <div class="col-sm-4 portfolio-item"> -->
+            <div class="flip-container"
+               ontouchstart="this.classList.toggle('hover');">
+               <div class="flipper">
+                  <a href="#portfolioModal1" class="portfolio-link"
+                     data-toggle="modal">
+                     <div class="front">
+                        <img class="img-circle  center-block food-img"
+                           src="${pageContext.request.contextPath}/resources/img/truck3.jpg"
+                           alt="" >
+                     </div>
+                     <div class="back cbx-back-side">
+                        <div class="text-center back-single-text">
+                           <p>트럭3</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-sm-6 portfolio-item">
+            <!--  <div class="row">
+                <div class="col-sm-4 portfolio-item"> -->
+            <div class="flip-container"
+               ontouchstart="this.classList.toggle('hover');">
+               <div class="flipper">
+                  <a href="#portfolioModal1" class="portfolio-link"
+                     data-toggle="modal">
+                     <div class="front">
+                        <img class="img-circle img-responsive center-block food-img"
+                           src="${pageContext.request.contextPath}/resources/img/truck7.jpg"
+                           alt="" width="200" height="200">
+                     </div>
+                     <div class="back cbx-back-side">
+                        <div class="text-center back-single-text">
+                           <p>트럭7</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-sm-6 portfolio-item">
+            <!--  <div class="row">
+                <div class="col-sm-4 portfolio-item"> -->
+            <div class="flip-container"
+               ontouchstart="this.classList.toggle('hover');">
+               <div class="flipper">
+                  <a href="#portfolioModal1" class="portfolio-link"
+                     data-toggle="modal">
+                     <div class="front">
+                        <img class="img-circle img-responsive center-block food-img"
+                           src="${pageContext.request.contextPath}/resources/img/truck2.jpg"
+                           alt="" width="200" height="200">
+                     </div>
+                     <div class="back cbx-back-side">
+                        <div class="text-center back-single-text">
+                           <p>트럭~~</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+       </div>
       <!-- row -->
       <hr>
    </div>
