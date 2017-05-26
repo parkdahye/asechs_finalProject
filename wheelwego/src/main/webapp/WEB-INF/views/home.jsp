@@ -10,8 +10,19 @@
             <div class="intro-text">
                <h1 class="name">Wheel we go!</h1>
                <hr>
-               <span class="skills">FoodTruck Service</span>
-            </div>
+               </div>
+                <div class="col-lg-4"></div>
+                <form class="col-lg-4 center-block">
+			    <div class="input-group">
+			      <input type="text" class="form-control" size="20" placeholder="Location" required>
+			      <div class="input-group-btn">
+			        <button type="submit" class="btn btn-danger">
+			       <span class="glyphicon glyphicon-search" style="color:white"></span>
+			        </button>
+			      </div>
+			    </div>
+			  </form>
+             <div class="col-lg-4"></div>
          </div>
       </div>
    </div>
@@ -26,15 +37,13 @@
          </div>
 			<br><br><br><br><br><br>
          <div class="col-lg-4 col-sm-6 portfolio-item">
-            <!--  <div class="row">
-                <div class="col-sm-4 portfolio-item"> -->
             <div class="flip-container"
                ontouchstart="this.classList.toggle('hover');">
                <div class="flipper">
                   <a href="#portfolioModal1" class="portfolio-link"
                      data-toggle="modal">
                      <div class="front">
-                        <img class="img-circle  center-block food-img"
+                        <img class="img-circle img-responsive center-block food-img"
                            src="${pageContext.request.contextPath}/resources/img/truck3.jpg"
                            alt="" >
                      </div>
@@ -225,7 +234,6 @@
          </div>
        </div>
       <!-- row -->
-      <hr>
    </div>
    <!-- container -->
 </section>
