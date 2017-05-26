@@ -15,6 +15,7 @@
  -ms-border-radius :125px;
  -khtml-border-radius : 125px;
  -o-border-radius :125px;
+ margin: 0 auto;
  }
 body {
 	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -192,7 +193,8 @@ section.success {
 
 #portfolio .portfolio-item {
 	margin: 0 0 15px;
-	right: 0
+	right: 0;
+	padding-bottom: 50px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -203,16 +205,16 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-	background-color:gray;
+	background-color:#eeeeee;
 	position: absolute;
-	 width:300px;
- 	height:300px;
- 	border-radius:150px;
- 	-moz-border-radius : 150px;
- 	-webkit-border-radius : 150px;
-	 -ms-border-radius :150px;
-	 -khtml-border-radius : 150px;
-	 -o-border-radius :150px;
+/* 	 width:250px;
+ 	height:250px;
+ 	border-radius:125px;
+ 	-moz-border-radius : 125px;
+ 	-webkit-border-radius : 125px;
+	 -ms-border-radius :125px;
+	 -khtml-border-radius : 125px;
+	 -o-border-radius :125px; */
 	opacity: 0;
 	transition: all ease .5s;
 	-webkit-transition: all ease .5s;
